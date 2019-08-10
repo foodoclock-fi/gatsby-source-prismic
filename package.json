@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-source-prismic",
-  "version": "2.2.0",
+  "name": "@zilahir/gatsby-source-prismic",
+  "version": "1.0.1",
   "description": "Gatsby source plugin for building websites using prismic.io as a data source",
   "scripts": {
     "prepublish": "npm run build",
@@ -9,10 +9,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "babel -w src --out-dir ."
   },
-  "homepage": "https://github.com/angeloashmore/gatsby-source-prismic",
+  "homepage": "https://github.com/zilahir/gatsby-theme-legals-prismic",
   "repository": {
     "type": "git",
-    "url": "https://github.com/angeloashmore/gatsby-source-prismic.git"
+    "url": "https://github.com/zilahir/gatsby-theme-legals-prismic"
   },
   "keywords": [
     "gatsby",
