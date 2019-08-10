@@ -4,7 +4,7 @@ export default async ({ repositoryName, accessToken, fetchLinks, lang }) => {
   console.time(`Fetch Prismic data`)
   console.log(`Starting to fetch data from Prismic`)
 
-  const apiEndpoint = `https://${repositoryName}.prismic.io/api/v2`
+  const apiEndpoint = `https://foodoclock-legal.prismic.io/api/v2`; // it's a bug
   const client = await Prismic.api(apiEndpoint, { accessToken })
 
   // Query all documents from client
